@@ -12,7 +12,7 @@ public class WordBreakerTest {
 	@Before
 	public void setUp() throws Exception {
 		breaker = new WordBreaker();
-		breaker.buildDict("C:\\Users\\shenshi\\Documents\\dict.txt");
+		breaker.buildDict("data\\dict.txt");
 	}
 
 	@Test
